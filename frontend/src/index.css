@@ -66,6 +66,39 @@ a {
 
 a:hover {
   color: orange;
+} 
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 0.2rem #404040 solid;
+}
+
+button.primary {
+  background-color: gold;
+}
+
+button.block {
+  width: 100%
 }
 
 header a {
@@ -90,6 +123,16 @@ img {
 img.medium {
   max-width: 30rem;
   width: 100%;
+}
+
+img.large {
+  width: 100%
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
 }
 
 .card {
@@ -119,4 +162,15 @@ img.medium {
 
 .rating span:last-child {
   color: black;
+}
+
+.row.top {
+  align-items: flex-start;
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red
 }

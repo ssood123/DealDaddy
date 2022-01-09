@@ -50,7 +50,7 @@ export default function ProductScreen(props) {
                                     )
                                     :
                                     (
-                                    <span className="error">Unavailable</span>
+                                    <span className="danger">Unavailable</span>
                                     )}
                                 </div>
                             </div>

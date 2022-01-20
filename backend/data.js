@@ -16,7 +16,6 @@ const data = {
     ],
     products:[
         {
-            _id:'1',
             name:'Honeywell HT-900 TurboForce Air Circulator Fan Black',
             category:'Fan',
             image:'/images/Fan1.jpg',
@@ -28,7 +27,6 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'2',
             name:'The PopFan Foldable Rechargeable Fan',
             category:'Fan',
             image:'/images/Fan2.jpg',
@@ -40,7 +38,6 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'3',
             name:'Professional Series 18" Stand Fan',
             category:'Fan',
             image:'/images/Fan3.png',
@@ -52,19 +49,17 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'4',
             name:'Commercial Floor Fan 3 Speed 20 inch 3450 CFM CF-20',
             category:'Fan',
             image:'/images/Fan4.jpg',
             price: 120,
-            conuntInStock: 15,
+            countInStock: 15,
             brand: 'TPI Corporation',
             rating: 4.5,
             numReviews: 10,
             description: 'high quality product',
         },
         {
-            _id:'5',
             name:'Airtop 16" Table Fan',
             category:'Fan',
             image:'/images/Fan5.jpeg',
@@ -76,7 +71,6 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'6',
             name:'Vornado 6803 Pedestal Fan',
             category:'Fan',
             image:'/images/Fan6.jpg',

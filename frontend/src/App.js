@@ -6,6 +6,7 @@ import ProductScreen from './screens/ProductScreen';
 import HomeScreen from './screens/HomeScreen';
 import cartScreen from './screens/CartScreen';
 import { useSelector } from 'react-redux';
+import SigninScreen from './screens/SigninScreen';
 
 function App() {
 
@@ -24,12 +25,13 @@ function App() {
             {cartItems.length > 0 && (
               <span className="badge">{cartItems.length}</span>
             )}</a>
-            <a href="/">Sign In</a>
+            <a href="/signin">Sign In</a>
         </div>
     </header>
     <main>
       <Route path="/cart/:id?" component={cartScreen}></Route>
       <Route path="/product/:id" component={ProductScreen}></Route>
+      <Route path="/signin" component={SigninScreen}></Route>
       <Route path="/" component={HomeScreen} exact></Route>
     </main>
     <footer className="row center">
